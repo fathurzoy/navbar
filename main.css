@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@300;500;800&display=swap');
+
+html {
+	scroll-behavior : smooth;
+	/* agar scroll smooth */
+}
+
+* {
+	box-sizing : border-box;
+
+}
+
+body {
+	user-select: none;
+        /* merupakan sebuah property untuk mengatur si user 
+        bisa menselect komponen kita atau ngga */
+	padding : 0px;
+	margin : 0px;
+	overflow-x : hidden;
+	width : 100vw;
+	heigth : auto;
+	min-height : 100vh;
+	background-color : #f7d794;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.navbar{
+	widht : 100vw;
+	height : 10vh;
+	background-color : coral;
+	box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.200);
+	padding-left : 10%;
+	padding-right : 10%;
+	display : flex;
+	align-items : center;
+}
+
+.brand {
+	font-family: 'Bebas Neue', cursive;
+	font-size: 24pt;
+	color: #2f3542;
+	text-decoration: none;
+}
+.brand a {
+	text-decoration: none;
+	color: #2f3542;
+}
+
+.menu {
+	list-style-type : none;
+	/*menghilangkan titik li*/
+	display : flex;
+	margin-left : auto;
+	/*di display flex margin-left:auto; ngepush ke sebelah kanan*/
+}
+
+.menu li a {
+	text-decoration: none;
+	/*menghilangkan style link pada tag a*/
+	color: #2f3542;
+}
+
+li {
+	margin-left : 50px;
+}
+
+.content {
+	width : 100vw;
+	height : 100vh;
+	display : flex;
+	justify-content: center;
+	/* membuat content ketengah secara vertical*/
+	align-items: center;
+	/* membuat content ketengah secara horizontal*/
+}
+
+h1 {
+	margin-right: 20px;
+}

@@ -1,0 +1,56 @@
+html {
+	scroll-behavior: smooth;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	overflow-x: hidden; 
+	background-color: #2d3436;
+}
+
+.box1, .box2, .box3{
+	width: 100px;
+	height: 50px;
+	border: 1px solid green;		
+}
+
+.nonFlex {	
+	width: 80vw;
+	height: 10vh;
+	border: 1px solid white;
+}
+
+.withFlex {
+	width: 80vw;
+	height: 10vh;
+	border: 1px solid white;
+	display: flex;
+	margin-top: 60px;
+}
+
+.dfH3 {
+	margin-top: 80px;
+}
+
+.fjc {
+	width: 80vw;
+	height: 10vh;
+	border: 1px solid white;
+	display: flex;
+	justify-content: center;
+}
+
+.fje {
+        width: 80vw;
+        height: 10vh;
+        border: 1px solid white;
+        display: flex;
+        justify-content: flex-end;
+	/* flex-end = rata kanan */
+}
+

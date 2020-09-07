@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Navigasi </title>
+	<!-- Tag koneksi ke CSS -->
+	<link rel="stylesheet" href="./main.css" />
+</head>
+<body>
+
+	<!-- ini adalah navigasi bar -->
+	<n<nav class="navbar" > 
+		<h3 class="brand" > Fathurzoy </h3>
+		<ul class="menu">
+
+			<li> 
+                                <a href="index.html"> HOME </a>
+                        </li>
+
+			<li>
+				<a href="about.html"> ABOUT </a>
+			</li>
+
+			<li>
+				<a href="contact.html"> CONTACT </a> 
+			</li>
+
+			<li> 
+                                <a href="gallery.html"> GALLERY </a>
+                        </li>
+			
+		</ul>
+	</nav>
+	
+	
+
+</body>
+</html>
